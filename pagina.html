@@ -1,0 +1,115 @@
+<html>
+    <header>
+        <title>
+            Mi Primera Página
+        </title>
+        <style>
+            body{
+                background-color:darkgrey;
+                color: floralwhite;
+                text-align: center;
+            }
+
+            a{
+                color: gold;
+            }
+
+            div{
+                border: linen 2px solid;
+            }
+
+            table,td,tr,th{
+                border: black 2px solid;
+                padding: 3px;
+                margin: 0;
+                color: black;
+            }
+
+            .fondoblanco{
+                background-color: whitesmoke;
+                color: darkgray;
+            }
+
+            .textojustify{
+                text-align: justify;
+            }
+
+            #fondorojo{
+                background-color: red;
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            .fondodarkred{
+                background-color: darkred;
+            }
+
+            img{
+                height: 50%;
+            }
+
+        </style>
+    </header>
+    <body>
+        <div>
+            <div>
+                <div class="fondoblanco">
+                    <h1>El Arbol Crespon</h1>
+                    El crespon es....
+                </div>
+                <div>
+                    <img src="Crespon.jpg" >
+                </div>
+            </div>
+            <div>
+                <label for="usr">usuario</label>
+                <input id="usr" type="text">
+
+                <label for="pwd">contraseña</label>
+                <input id="pwd" type="password">
+            </div>
+            <br>
+            <div>
+                <!-- esto no se ve -->
+                <a href="https://github.com/amarufd/ICIS22020">link proyecto github</a>
+    
+            </div>
+            <div class="textojustify">
+                <h4>Mi Primer título h4</h4>
+        
+                <h3>Mi Primer título h3</h3>
+            </div>
+            <div class="fondoblanco">
+                <table>
+                    <tr>
+                        <th>id</th>
+                        <th>Nombre arbol</th>
+                        <th>Tamaño</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Araucaria</td>
+                        <td>20 mts</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Crespon</td>
+                        <td>10 mts</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Liwuidambar</td>
+                        <td>5 mts</td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uQRoTe21wuQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="fondodarkred">
+                <p id="fondorojo">Este es un mensaje único e importante</p>
+            </div>
+        </div>
+    </body>
+</html>
